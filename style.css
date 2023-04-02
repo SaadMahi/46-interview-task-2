@@ -51,3 +51,13 @@ body {
     rgb(127, 127, 202) 1%
   );
 }
+
+@media screen and (max-width: 412px) {
+  .container {
+    height: 200px;
+  }
+
+  .circle {
+    scale: 0.5;
+  }
+}
